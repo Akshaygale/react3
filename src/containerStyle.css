@@ -1,0 +1,54 @@
+body{
+    background-image: linear-gradient(lightblue,lightcyan,lightseagreen,lightyellow);
+    background-attachment: fixed; 
+}
+.heading{
+    font-family: cursive;
+    font-size: xx-large;
+}
+.container{
+    text-align: center;
+}
+.inputbox{
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: rgb(221, 237, 243);
+    margin: 15px;
+    border: 1px solid black;
+    font-size: large;
+    text-align: center;
+}
+.submitbutton{
+    width: 200px;
+    border-radius: 25px;
+    font-size: x-large;
+    margin-top: 30px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: thistle;
+}
+.displayBox {
+    margin: 2% 0 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:lightgrey;
+    border: solid 2px black;
+    width: 80%;
+    text-align: center;
+    border-radius: 15px;
+  }
+
+  .output_occur {
+    background-image: linear-gradient(lightblue,white,lightseagreen);
+    border-radius: 20px;
+    border: solid 2px black;
+    width: 35%;
+    margin: 25px;
+    margin-left: 100px;
+  }
+
+.sideHeading{
+    font-size: x-large;
+    font-family: monospace;
+}
